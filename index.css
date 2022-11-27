@@ -163,6 +163,125 @@ video {
     margin-right: 200px;
 }
 
+#menu {
+    display: none;
+}
+
+.card {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.349);
+    height: 350px;
+    width: 250px;
+    margin: 15px;
+}
+
+#myprojects {
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+    min-height: 100vh;
+}
+
+#myprojects h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(55, 109, 55);
+    font-weight: 600;
+    font-size: 275%;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+#cardholder {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+}
+
+.imgholder {
+    width: 100%;
+    height: 45%;
+}
+
+.imgholder img {
+    width: 100%;
+    height: 100%;
+}
+
+.technologies {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-color: rgb(55, 109, 55);
+}
+
+.technologies p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.description {
+    display: flex;
+    height: 37%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.description p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.title {
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-bottom-width: 2px;
+}
+
+.title p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.links {
+    height: 8%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 2px;
+    border-color: rgb(55, 109, 55);
+    padding-top: 2px;
+    background-color: rgb(96, 158, 96);
+}
+
+.github { 
+    border-right-width: 1px;
+}
+
+.demo {
+    border-left-width: 1px;
+}
+
 @media (max-width: 1215px) {
     #leftside {
         display: none;
@@ -185,5 +304,27 @@ video {
     #home h2, #home p {
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    #aboutmyself h2, #aboutmyself p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #links a{
+        display: none;
+    }
+
+    #menu {
+        display: inline;
+    }
+
+    #media {
+        display: none;
+    }
+
+    #links {
+        justify-content: flex-end;
+        padding-right: 20px;
     }
 }
