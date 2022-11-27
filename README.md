@@ -1,2 +1,2 @@
-<h1>Hey Brandon, nice projects! But why the hiatus and the spotty commit graph?</h1>
-<p>I recently went through some renaming which is causing an issue with the commit graph; GitHub support has been notified to fix this issue and show a much more lively green. As for the hiatus, I am currently pursuing job opportunities and will be putting my personal projects on hold until one is found. Programming is amazing, but man cannot live on personal projects alone.</p>
+<h1>Hey Brandon, nice projects! But why the hiatus starting on September 15th?</h1>
+<p>Making my own projects is nice and all, but man cannot live on personal projects alone. I am currently pursuing job opportunities and will be putting my personal projects on hold until one is found. </p>
