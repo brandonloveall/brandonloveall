@@ -1,0 +1,185 @@
+#wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    top: 20px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 25px rgba(165, 165, 165, 0.692);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#initialsholder {
+    height: 100%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: rotate(-30deg);
+}
+
+#initialsholder h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+}
+
+#home,
+#aboutmyself,
+#myprojects,
+#contact {
+    min-height: 100vh;
+    height: 800px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#home h2 {
+    margin-top: 200px;
+    font-size: 275%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-right: 300px;
+}
+
+#home p {
+    font-size: 175%;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 200px;
+}
+
+#links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+
+#links a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+#links a:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+#links a p {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightside {
+    height: 100vh;
+    width: 50vw;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.349);
+}
+
+#rightside::-webkit-scrollbar {
+    display: none;
+}
+
+#leftside {
+    width: 50vw;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#media {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#media a {
+    height: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#media a img {
+    height: 100%;
+}
+
+#aboutmyself h2 {
+    margin-top: 200px;
+    font-size: 275%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-right: 300px;
+}
+
+#aboutmyself p {
+    font-size: 175%;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 200px;
+}
+
+@media (max-width: 1215px) {
+    #leftside {
+        display: none;
+    }
+
+    #rightside {
+        width: 100vw;
+    }
+
+    #home,
+    #aboutmyself,
+    #myprojects,
+    #contact {
+        min-height: 100vh;
+        height: 800px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #home h2, #home p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
