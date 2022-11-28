@@ -7,3 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+document.getElementById("menu").addEventListener("click", () => {
+    console.log("F")
+})
