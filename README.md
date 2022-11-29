@@ -1,2 +1,2 @@
-<h1>Hey Brandon, nice projects! But why the hiatus starting on September 15th?</h1>
-<p>Making my own projects is nice and all, but man cannot live on personal projects alone. I am currently pursuing job opportunities and will be putting my personal projects on hold until one is found. </p>
+<h1>Hey Brandon, nice projects! But why the hiatus in October?</h1>
+<p>Decided to take a small break to study more languages and apply for some jobs. Now that the holidays are here, I'm back into full swing developing projects and growing my skills!</p>

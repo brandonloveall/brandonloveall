@@ -37,9 +37,8 @@ nav {
 #home,
 #aboutmyself,
 #myprojects,
-#contact {
+#contact, #mytechstack {
     min-height: 100vh;
-    height: 800px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 200px;
@@ -301,6 +300,56 @@ video {
     max-width: 50%;
 }
 
+#mytechstack h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(55, 109, 55);
+    font-weight: 600;
+    font-size: 275%;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    max-width: 50%;
+}
+
+#skillsholder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+#aboutmyself {
+    padding-top: 100px;
+}
+
+#aboutmyself h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(55, 109, 55);
+    font-weight: 600;
+    font-size: 275%;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    max-width: 50%;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.skill img:hover {
+    transform: scale(1.15);
+}
+
+#mytechstack {
+    padding-top: 100px;
+}
+
 #contact h3 {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -325,7 +374,7 @@ video {
 }
 
 .invisible {
-    bottom: 100%;
+    bottom: 105%;
 }
 
 #menudropdown {
@@ -388,10 +437,16 @@ video {
     #home,
     #aboutmyself,
     #myprojects,
-    #contact {
+    #contact,
+    #mytechstack {
         min-height: 100vh;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #contact h2, #mytechstack h2, #aboutmyself h2 {
+        width: 100%;
+        max-width: 100%;
     }
 
     #home h2, #home p {
@@ -441,5 +496,9 @@ video {
         min-width: 100vw;
         min-height: 100vh;
         object-fit: fill;
+    }
+
+    h2 {
+        width: 100%
     }
 }
