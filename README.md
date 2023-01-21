@@ -1,2 +1,1 @@
-<h1>Hey Brandon, nice projects! But why the hiatus in October?</h1>
-<p>Decided to take a small break to study more languages and apply for some jobs. Now that the holidays are here, I'm back into full swing developing projects and growing my skills!</p>
+<h1>Hi!</h1>
